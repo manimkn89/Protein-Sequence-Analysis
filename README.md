@@ -26,7 +26,7 @@ For Protein Sequence Analysis (v1.2)
 
 
 -------------------------------------------
-Install:
+Install
 -------------------------------------------
 
 1. download the package
@@ -65,11 +65,15 @@ Windows system and CPU type:
 -------------------------------------------
 
 Protein Sequence Analysis Tool has been compiled and tested under the following Windows system,
+
 	Windows 8 
+	
 	Java version 1.8 
+	
               MySql 5.1.48
 
 with the following CPU type,
+
 	Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz
 
 
@@ -84,10 +88,12 @@ Amino Acid Pattern
 1.	Run the file named as Main. Java inside the SeqAnalysis folder.
 2.	Select the Load protein option in the output window.
 3.	In this package please find an example Input Dataset in Input/Data.Txt.
+	
 	[Users can download some protein sequence from any sequence repositories like SCOP, CATH, 	UNIPROT…Then run the input sequence in online SOPM server and save the sequences in text 	document with fasta format and place it in the Input folder of the directory]
 4.	Then select the predict pattern option in the output window for predicting the protein patterns for four secondary structural classes, namely Alpha Helix (h), Beta Sheet (e), Turn (t) and Coil (c).
 5.	Load pattern option in the output window is used to store the secondary structural patterns into mysql database.
-[ In this tool the username and password for connecting with mysql database is mentioned below
+
+[In this tool the username and password for connecting with mysql database is mentioned below
 Username: root
 Password: root. If the user has to change the login details, please update the information’s in the MysqlConnect.Java file.
 
