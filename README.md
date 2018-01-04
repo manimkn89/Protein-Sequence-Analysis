@@ -70,7 +70,7 @@ Protein Sequence Analysis Tool has been compiled and tested under the following 
 	
 	Java version 1.8 
 	
-              MySql 5.1.48
+        MySql 5.1.48
 
 with the following CPU type,
 
@@ -94,8 +94,11 @@ Amino Acid Pattern
 5.	Load pattern option in the output window is used to store the secondary structural patterns into mysql database.
 
 [In this tool the username and password for connecting with mysql database is mentioned below
+
 Username: root
-Password: root. If the user has to change the login details, please update the information’s in the MysqlConnect.Java file.
+
+Password: root
+If the user has to change the login details, please update the information’s in the MysqlConnect.Java file].
 
 
 
