@@ -1,9 +1,11 @@
 
 Protein Sequence Analysis
+
 Date: 02.01.2018
 -------------------------------------------
 
 Author: P.Manikandan, Dr.D.Ramyachitra
+
 Contact email: manimkn89@gmail.com , jaichitra1@yahoo.co.in
 
 
@@ -31,7 +33,7 @@ Install:
 
 git clone --recursive https://github.com/manimkn89/Protein-Sequence-Analysis/
 
-cd SeqAnalysis/
+
 
 --------------
 
@@ -74,6 +76,7 @@ with the following CPU type,
 
 -------------------------------------------
 Setup for Protein Sequence Analysis:
+-------------------------------------------
 
 Amino Acid Pattern
 -------------------------------------------
