@@ -29,7 +29,7 @@ For Protein Sequence Analysis
 Install
 -------------------------------------------
 
-1. download the package
+1. Download the package
 
 	git clone --recursive https://github.com/manimkn89/Protein-Sequence-Analysis/
 
@@ -37,7 +37,7 @@ Install
 
 --------------
 
-2. compile
+2. Compile
 
 
   
