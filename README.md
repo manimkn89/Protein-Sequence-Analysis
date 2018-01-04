@@ -14,7 +14,7 @@ Contact email: manimkn89@gmail.com , jaichitra1@yahoo.co.in
 Applications
 -------------------------------------------
 
-For Protein Sequence Analysis (v1.2)
+For Protein Sequence Analysis
 
 1. Allow user to predict the amino acid patterns from the protein sequences.
 
@@ -31,7 +31,7 @@ Install
 
 1. download the package
 
-git clone --recursive https://github.com/manimkn89/Protein-Sequence-Analysis/
+	git clone --recursive https://github.com/manimkn89/Protein-Sequence-Analysis/
 
 
 
@@ -40,10 +40,7 @@ git clone --recursive https://github.com/manimkn89/Protein-Sequence-Analysis/
 2. compile
 
 
-
-
-
---------------     
+  
 
 
 
@@ -70,7 +67,7 @@ Protein Sequence Analysis Tool has been compiled and tested under the following 
 	
 	Java version 1.8 
 	
-        MySql 5.1.48
+     MySql 5.1.48
 
 with the following CPU type,
 
@@ -107,16 +104,21 @@ If the user has to change the login details, please update the information’s i
 Physiochemical Properties 
 -------------------------------------------
 6.	Input raw sequence option is used to predict the physiochemical properties for a protein sequence where the structure is unknown.
+
 7.	Physiochemical properties includes the positive charged, negative charged, extinction coefficient, Hydrophobic Non-Polar ALKYL Amino Acid groups, Hydrophobic Non-Polar AROMATIC Amino Acid groups, Hydrophilic Polar Neutral Amino Acid groups, Hydrophilic Polar Acidic Amino Acid groups and Hydrophilic Polar Basic Amino Acid groups.
+
 --------------------------------------------
 Protein Secondary Structure 
 --------------------------------------------
 8.	Predict option is used to predict the secondary structure for a protein sequence where the structure is unknown. The secondary structures are predicted based on the patterns of secondary structural classes stored in the mysql database.
+
 9.	Pattern result option is used to show the amount of patterns predicted for the secondary structural classes by using the Hybrid KMP & BM algorithm.
+
 ----------------------------------------------
 Protein Similarity Analysis
 ----------------------------------------------
 10.	Similarity option is used to perform the similarity analysis for the input raw sequence of the protein (structure Unknown) with the cath domain sequence (latest release updated on Jan 2018).
+
 11.	Similarity value ranges from 0 to 1. In this tool the value is set to 0.6 to predict similar sequences from the cath database.
 
 
