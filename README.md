@@ -78,12 +78,12 @@ Setup for Protein Sequence Analysis:
 Amino Acid Pattern
 -------------------------------------------
 
-Run the file named as Main. Java inside the SeqAnalysis folder.
-Select the Load protein option in the output window.
-In this package please find an example Input Dataset in Input/Data.Txt.
+1.	Run the file named as Main. Java inside the SeqAnalysis folder.
+2.	Select the Load protein option in the output window.
+3.	In this package please find an example Input Dataset in Input/Data.Txt.
 	[Users can download some protein sequence from any sequence repositories like SCOP, CATH, 	UNIPROT…Then run the input sequence in online SOPM server and save the sequences in text 	document with fasta format and place it in the Input folder of the directory]
-Then select the predict pattern option in the output window for predicting the protein patterns for four secondary structural classes, namely Alpha Helix (h), Beta Sheet (e), Turn (t) and Coil (c).
-Load pattern option in the output window is used to store the secondary structural patterns into mysql database.
+4.	Then select the predict pattern option in the output window for predicting the protein patterns for four secondary structural classes, namely Alpha Helix (h), Beta Sheet (e), Turn (t) and Coil (c).
+5.	Load pattern option in the output window is used to store the secondary structural patterns into mysql database.
 [ In this tool the username and password for connecting with mysql database is mentioned below
 Username: root
 Password: root. If the user has to change the login details, please update the information’s in the MysqlConnect.Java file.
@@ -94,15 +94,17 @@ Password: root. If the user has to change the login details, please update the i
 
 Physiochemical Properties 
 -------------------------------------------
-Input raw sequence option is used to predict the physiochemical properties for a protein sequence where the structure is unknown.
-Physiochemical properties includes the positive charged, negative charged, extinction coefficient, Hydrophobic Non-Polar ALKYL Amino Acid groups, Hydrophobic Non-Polar AROMATIC Amino Acid groups, Hydrophilic Polar Neutral Amino Acid groups, Hydrophilic Polar Acidic Amino Acid groups and Hydrophilic Polar Basic Amino Acid groups.
+6.	Input raw sequence option is used to predict the physiochemical properties for a protein sequence where the structure is unknown.
+7.	Physiochemical properties includes the positive charged, negative charged, extinction coefficient, Hydrophobic Non-Polar ALKYL Amino Acid groups, Hydrophobic Non-Polar AROMATIC Amino Acid groups, Hydrophilic Polar Neutral Amino Acid groups, Hydrophilic Polar Acidic Amino Acid groups and Hydrophilic Polar Basic Amino Acid groups.
 --------------------------------------------
 Protein Secondary Structure 
 --------------------------------------------
-Predict option is used to predict the secondary structure for a protein sequence where the structure is unknown. The secondary structures are predicted based on the patterns of secondary structural classes stored in the mysql database.
-Pattern result option is used to show the amount of patterns predicted for the secondary structural classes by using the Hybrid KMP & BM algorithm.
+8.	Predict option is used to predict the secondary structure for a protein sequence where the structure is unknown. The secondary structures are predicted based on the patterns of secondary structural classes stored in the mysql database.
+9.	Pattern result option is used to show the amount of patterns predicted for the secondary structural classes by using the Hybrid KMP & BM algorithm.
 ----------------------------------------------
 Protein Similarity Analysis
 ----------------------------------------------
-Similarity option is used to perform the similarity analysis for the input raw sequence of the protein (structure Unknown) with the cath domain sequence (latest release updated on Jan 2018).
-Similarity value ranges from 0 to 1. In this tool the value is set to 0.6 to predict similar sequences from the cath database.
+10.	Similarity option is used to perform the similarity analysis for the input raw sequence of the protein (structure Unknown) with the cath domain sequence (latest release updated on Jan 2018).
+11.	Similarity value ranges from 0 to 1. In this tool the value is set to 0.6 to predict similar sequences from the cath database.
+
+
