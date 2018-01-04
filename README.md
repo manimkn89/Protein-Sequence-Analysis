@@ -58,7 +58,7 @@ Install
 
 
 -------------------------------------------
-Windows system and CPU type:
+Windows system and CPU type
 -------------------------------------------
 
 Protein Sequence Analysis Tool has been compiled and tested under the following Windows system,
