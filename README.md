@@ -1,16 +1,16 @@
-=======================
+
 Protein Sequence Analysis
 Date: 02.01.2018
-=======================
+-------------------------------------------
 
 Author: P.Manikandan, Dr.D.Ramyachitra
 Contact email: manimkn89@gmail.com , jaichitra1@yahoo.co.in
 
 
 
-========
+-------------------------------------------
 Applications
-========
+-------------------------------------------
 
 For Protein Sequence Analysis (v1.2)
 
@@ -23,9 +23,9 @@ For Protein Sequence Analysis (v1.2)
 
 
 
-========
+-------------------------------------------
 Install:
-========
+-------------------------------------------
 
 1. download the package
 
@@ -58,9 +58,9 @@ cd SeqAnalysis/
 
 
 
-==========================
+-------------------------------------------
 Windows system and CPU type:
-==========================
+-------------------------------------------
 
 Protein Sequence Analysis Tool has been compiled and tested under the following Windows system,
 	Windows 8 
@@ -72,9 +72,9 @@ with the following CPU type,
 
 
 
-===================================
+-------------------------------------------
 Setup for Protein Sequence Analysis:
-===================================
+
 Amino Acid Pattern
 -------------------------------------------
 
