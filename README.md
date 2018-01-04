@@ -67,7 +67,7 @@ Protein Sequence Analysis Tool has been compiled and tested under the following 
 	
 	Java version 1.8 
 	
-     MySql 5.1.48
+    MySql 5.1.48
 
 with the following CPU type,
 
@@ -76,7 +76,7 @@ with the following CPU type,
 
 
 -------------------------------------------
-Setup for Protein Sequence Analysis:
+Setup for Protein Sequence Analysis
 -------------------------------------------
 
 Amino Acid Pattern
@@ -90,12 +90,13 @@ Amino Acid Pattern
 4.	Then select the predict pattern option in the output window for predicting the protein patterns for four secondary structural classes, namely Alpha Helix (h), Beta Sheet (e), Turn (t) and Coil (c).
 5.	Load pattern option in the output window is used to store the secondary structural patterns into mysql database.
 
-[In this tool the username and password for connecting with mysql database is mentioned below
+	[In this tool the username and password for connecting with mysql database is mentioned below
 
-Username: root
+	Username: root
 
-Password: root
-If the user has to change the login details, please update the information’s in the MysqlConnect.Java file].
+	Password: root
+	
+	If the user has to change the login details, please update the information’s in the MysqlConnect.Java file].
 
 
 
