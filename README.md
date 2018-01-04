@@ -1,7 +1,7 @@
 
 Protein Sequence Analysis
 -------------------------------------------
-Date: 02.01.2018
+Date: 04.01.2018
 -------------------------------------------
 
 Author: P.Manikandan, Dr.D.Ramyachitra
